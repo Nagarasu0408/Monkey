@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "Backend/Server.js",
   "scripts": {
-    "dev": "nodemon Backend/Server.js",
-    "start": "node Backend/Server.js"
+    "dev": "NODE_ENV=development nodemon Backend/Server.js",
+    "start": "NODE_ENV=production node Backend/Server.js",
+    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
   },
   "keywords": [],
   "author": "",
