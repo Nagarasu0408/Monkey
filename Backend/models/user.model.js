@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
         ref: "User",
         default: []
     }],
-    profilePic: {
+    profileImg: {
         type: String,
         default: ""
     },
@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
-    coverPic: {
+    coverImg: {
         type: String,
         default: ""
     },
