@@ -1,6 +1,6 @@
 {
   "name": "panda",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "main": "Backend/Server.js",
   "scripts": {
     "dev": "NODE_ENV=development nodemon Backend/Server.js",
