@@ -1,4 +1,3 @@
-
 import path from "path";
 import express from "express";
 import authRoutes from "./routes/auth.routes.js";
