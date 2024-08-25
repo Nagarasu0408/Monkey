@@ -1,0 +1,15 @@
+.Card {
+    position: relative;
+}
+
+.Card-Image::before {
+    content: '';
+    position: absolute;
+    height: 80%;
+    left: 3.5%;
+    z-index: -1;
+    top: 10%;
+    width: 1px;
+    border-left: 2px solid rgba(156, 156, 156, 0.184);
+    border-radius: 100px;
+}

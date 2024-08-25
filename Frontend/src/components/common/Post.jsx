@@ -1,12 +1,10 @@
-import { FaRegComment } from "react-icons/fa";
-import { BiRepost } from "react-icons/bi";
-import { FaRegHeart } from "react-icons/fa";
-import { FaRegBookmark } from "react-icons/fa6";
-import { FaTrash } from "react-icons/fa";
+import "../CSS/Common.css"
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
+
 
 import LoadingSpinner from "./LoadingSpinner";
 import { formatPostDate } from "../../utils/date";
@@ -126,13 +124,13 @@ const Post = ({ post }) => {
 
     return (
         <>
-            <div className='flex gap-2 items-start p-4 border-b border-gray-700'>
+            <div className='flex gap-2 items-start p-4 border-b border-gray-700 Card'>
                 <div className='avatar'>
                     <Link to={`/profile/${postOwner.username}`} className='w-10 h-10 rounded-full overflow-hidden'>
                         <img src={postOwner.profileImg || "/avatar-placeholder.png"} />
                     </Link>
                 </div>
-                <div className='flex flex-col flex-1'>
+                <div className='flex flex-col flex-1 Card-Image'>
                     <div className='flex gap-0 flex-col  items-start '>
                         <Link to={`/profile/${postOwner.username}`} className='font-bold'>
                             {postOwner.fullname}
