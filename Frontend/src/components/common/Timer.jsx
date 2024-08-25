@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "../CSS/Timer.css";
 
 export default function Timer() {

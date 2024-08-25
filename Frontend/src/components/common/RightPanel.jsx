@@ -32,7 +32,7 @@ const RightPanel = () => {
 
     return (
         <div className='hidden lg:block my-20 mx-2 scroll-container'>
-            <div className='bg-[#16181C] p-4 rounded-md sticky top-2 scroll-container'>
+            <div className='bg-[#16181C] p-4 rounded-md  sticky top-2 scroll-container'>
                 <p className='font-bold mb-6'>Timer</p>
                 <Timer />
                 <p className='font-bold mb-4 mt-20'>Who to follow</p>
