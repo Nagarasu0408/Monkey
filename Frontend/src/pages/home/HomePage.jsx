@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Posts from "../../components/common/Posts";
 import CreatePost from "./CreatePost";
+import BottomNavBar from "../../components/common/BottomNavBar";
 
 const HomePage = () => {
     const [feedType, setFeedType] = useState("forYou");
@@ -32,6 +33,9 @@ const HomePage = () => {
                         )}
                     </div>
                 </div>
+
+                {/*  BOTTOM NAV BAR WITH POST INPUT */}
+                <BottomNavBar />
 
                 {/*  CREATE POST INPUT */}
                 <CreatePost />

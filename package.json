@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.4.0",
     "cookie-parser": "^1.4.6",
@@ -20,9 +21,13 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.5.3"
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.3",
+    "react-countdown-circle-timer": "^3.2.1",
+    "worker-timers": "^8.0.4"
   },
   "devDependencies": {
+    "@iconify/react": "^5.0.2",
     "cross-env": "^7.0.3",
     "nodemon": "^3.1.4"
   }

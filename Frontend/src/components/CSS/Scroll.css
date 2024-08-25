@@ -1,0 +1,4 @@
+/* Custom scrollbar */
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
