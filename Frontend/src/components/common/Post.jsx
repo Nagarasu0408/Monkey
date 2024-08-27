@@ -251,7 +251,7 @@ const Post = ({ post }) => {
                         {post.img && (
                             <img
                                 src={post.img}
-                                className='h-80 object-contain rounded-lg mt-5 border border-gray-700'
+                                className='h-auto w-full  object-contain rounded-lg mt-5 border border-gray-700'
                                 alt=''
                             />
                         )}
